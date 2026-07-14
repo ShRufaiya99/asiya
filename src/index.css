@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@utility container {
+    max-width: 1410px;
+    margin : 0 auto;
+}
+@theme {
+    --font-jost: "Jost", sans-serif; 
+    --color-primary : #222222;
+    --color-white :#FFFFFF;
+    --color-notify : #B9A16B;
+  }
+
+.swiper-pagination {
+    text-align: left !important;
+    margin-left: 195px !important;
+    bottom: 58px !important;
+ } 
+
+.swiper-pagination-bullet{
+    background: #DDC2B9 !important;
+    margin-right: 28px !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active{
+    background: #222222 !important;
+    position: relative;
+}
+
+.swiper-pagination-bullet-active::after{
+   content: "";
+   width:30px;
+   height: 30px;
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50% ,-50%);
+   border: 2px solid #222222;
+   border-radius: 50%;
+}

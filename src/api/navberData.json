@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "title": "HOME",
+      "path": "/",
+      "icon": "HomeIcon"
+    },
+    {
+      "id": 2,
+      "title": "SHOP",
+      "path": "/shop",
+      "icon": "InformationCircleIcon"
+    },
+    {
+      "id": 3,
+      "title": "COLLECTION",
+      "path": "/collection",
+      "icon": "PhoneIcon"
+    },
+    {
+        "id": 4,
+        "title": "JOURNAL",
+        "path": "/journal",
+        "icon": "PhoneIcon"
+      },
+      {
+        "id": 5,
+        "title": "LOOKBOOK",
+        "path": "/lookbook",
+        "icon": "PhoneIcon"
+      },
+      {
+        "id": 6,
+        "title": "PAGES",
+        "path": "/pages",
+        "icon": "PhoneIcon"
+      }
+  ]
+  
+                                               
