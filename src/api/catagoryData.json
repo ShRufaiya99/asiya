@@ -7,16 +7,16 @@
     {
         "id":2,
         "image":"./images/catagory2.png",
-        "name":"WOMAN"
+        "name":"MEN"
     },
     {
         "id":3,
         "image":"./images/catagory3.png",
-        "name":"WOMAN"
+        "name":"KIDS"
     },
     {
         "id":4,
         "image":"./images/catagory4.png",
-        "name":"WOMAN"
+        "name":"E-GIFT"
     }
 ]
