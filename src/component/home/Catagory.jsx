@@ -8,7 +8,7 @@ const Catagory = () => {
       <div className="container">
         <div className="grid grid-cols-4 gap-7.5">
           {catagoryData.map((item) => (
-            <div
+            <div key={item.id}
               className={`${item.id == 1 ? "col-span-2 row-span-2" : item.id == 2 && "col-span-2"} relative h-full w-full`}
             >
               <Image src={item.image} alt={item.name} />

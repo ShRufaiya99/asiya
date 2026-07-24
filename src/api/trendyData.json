@@ -5,14 +5,18 @@
     },
     {
         "id":2,
-        "name":"NEWARRIVALS"
+        "name":"Beauty"
     },
     {
         "id":3,
-        "name":"BEST SELLER "
+        "name":"Fragrances "
     },
     {
         "id":4,
-        "name":"TOP RATING "
+        "name":"Furniture"
+    },
+    {
+        "id":5,
+        "name":"Groceries"
     }
 ]
