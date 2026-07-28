@@ -16,7 +16,7 @@ const Banner = () => {
       >
          {bannerData.map((item) => (
            <SwiperSlide>
-           <Image className="w-full h-150" key={item.id} src={item.image} alt="banner" />
+           <Image className="w-full h-[782.22px] object-cover object-top" key={item.id} src={item.image} alt="banner" />
            </SwiperSlide>  
     ))}
      </Swiper>

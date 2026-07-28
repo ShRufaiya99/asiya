@@ -1,22 +1,22 @@
 [
     {
         "id":1,
-        "name":"ALL"
+        "name":"aLL"
     },
     {
         "id":2,
-        "name":"Beauty"
+        "name":"beauty"
     },
     {
         "id":3,
-        "name":"Fragrances "
+        "name":"fragrances"
     },
     {
         "id":4,
-        "name":"Furniture"
+        "name":"furniture"
     },
     {
         "id":5,
-        "name":"Groceries"
+        "name":"groceries"
     }
 ]

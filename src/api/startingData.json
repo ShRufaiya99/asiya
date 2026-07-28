@@ -1,0 +1,19 @@
+[
+   
+    {
+        "id" : 1,
+        "image" : "images/woman-tshirts.jpg",
+        "hoverImage": "images/hoverwomen.webp",
+        "name" : "women",
+        "price": "STARTING AT $19",
+        "title": "Women's T-Shirts"
+    },
+    {
+        "id" : 2,
+        "image" : "images/men-sports.jpg",
+        "hoverImage":"images/hovermens.jpg",
+        "name" : "men",
+        "price": "STARTİNG AT $39",
+        "title": "Men’s Sportswear"
+    }
+]

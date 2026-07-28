@@ -20,8 +20,12 @@ const Catagory = () => {
                   <span className="font-bold"> {item.name} </span>
                   {item.id == 4 ? "CARDS" : "COLLECTION"}
                 </h2>
-                <p className="text-primary text-[14px] leading-6 font-normal">Surprise someone with the gift they <br/> really want.</p>
-                <Link className="text-primary after:content-[] after:bg-primary relative text-[14px] leading-6 font-normal after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12.5">
+                <p className="text-primary text-[14px] leading-6 font-normal">
+                  {item.id == 4 ?
+                 `Surprise someone with the gift they really want.` : ""}
+                </p>
+
+                <Link className="text-primary relative leading-6 font-normal after:absolute after:bottom-0 after:left-0 after:h-0.5 after:content[''] after:bg-primary  text-sm after:w-0 after:duration-500 hover:after:w-full">
                   {item.id == 4 ? "DISCOVER MORE" : "SHOP NOW"}
                 </Link>
               </div>
