@@ -1,13 +1,17 @@
 import React from "react";
 import Image from "./Image";
 import productImage from "../../assets/images/productimg.png";
-const Product = ({item}) => {
+const Product = ({ item }) => {
   return (
-    <div className="max-w-82.5 relative">
-      <Image src={item.thumbnail} alt="product" />
+    <div className="relative max-w-82.5">
+      <Image src={item.images[0]} alt="product" />
       <div className="mt-3.5">
         <div className="flex justify-between">
-          <h4 className="text-gray text-sm font-normal">{item.category}</h4>
+          <h4 className="text-gray text-sm font-normal">
+            {typeof item.category === "object"
+              ? item.category.name
+              : item.category}
+          </h4>
           <button>
             <svg
               width="16"
@@ -31,12 +35,12 @@ const Product = ({item}) => {
           </button>
         </div>
         <h3 className="text-primary mt-2.25 text-base font-normal">
-        {item.title}
+          {item.title}
         </h3>
         <h5 className="text-primary text-base font-normal">${item.price}</h5>
       </div>
       <div className="text-center">
-        <button className=" h-12.5 w-77.5 bg-white text-center text-sm text-black font-medium   transition-all ease-in-out absolute bottom-25 left-2/4 translate-x-[-50%] group-hover:visible shadow-lg shadow-gray-200">
+        <button className="absolute bottom-25 left-2/4 h-12.5 w-77.5 translate-x-[-50%] bg-white text-center text-sm font-medium text-black shadow-lg shadow-gray-200 transition-all ease-in-out group-hover:visible">
           ADD TO CART
         </button>
       </div>
